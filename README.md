@@ -8,7 +8,7 @@
 ## Downloading
 
 ```
-git clone {repository URL}
+git clone https://github.com/mathstutor19/nodejs2024Q3-service
 ```
 
 ## Installing NPM modules
@@ -34,13 +34,14 @@ After application running open new terminal and enter:
 To run all tests without authorization
 
 ```
-npm run test
-```
 
+npm run test:auth
+```
+npm run test:refresh
 To run only one of all test suites
 
 ```
-npm run test -- <path to suite>
+npm run test 
 ```
 
 To run all test with authorization
